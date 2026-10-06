@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. student, Industrial Engineering"
   location         : "Atlanta, GA"
-  employer         : "Georgia Institute of Technology"
+  employer         : # intentionally blank
   uri              : # URL
   email            : # intentionally blank: address is shown obfuscated on the home page
 

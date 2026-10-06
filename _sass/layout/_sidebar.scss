@@ -322,3 +322,19 @@
     }
   }
 }
+
+/* Large icon-only links (Google Scholar, LinkedIn) under the bio */
+.author__bigicons {
+  display: flex;
+  gap: 0.9em;
+  margin: 0.2em 0 1em;
+
+  a {
+    font-size: 1.9em;
+    line-height: 1;
+    color: var(--global-text-color-light, #666);
+    border-bottom: 0;
+
+    &:hover { color: var(--global-link-color, #3b9cba); }
+  }
+}
