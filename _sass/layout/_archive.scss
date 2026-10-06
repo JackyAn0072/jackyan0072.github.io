@@ -295,3 +295,28 @@
     margin-left: 0.9em;
   }
 }
+
+/* Home page: same type scale as the publication list (18px heads, 0.9em detail lines) */
+.home-text p {
+  font-size: 0.9em;
+  line-height: 1.55;
+  color: #3d4147;
+}
+
+.edu {
+  margin: 0 0 1.7em;
+}
+
+.edu .edu__head {
+  margin: 0 0 0.3em;
+  font-size: 1em;
+  line-height: 1.35;
+  color: #2a2d31;
+}
+
+.edu .edu__sub {
+  margin: 0;
+  font-size: 0.9em;
+  line-height: 1.5;
+  color: #3d4147;
+}
