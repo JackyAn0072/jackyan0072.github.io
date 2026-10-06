@@ -1,0 +1,16 @@
+# Local preview only (Ruby 4 can't run the github-pages gem's Jekyll 3.9).
+# Use:  BUNDLE_GEMFILE=Gemfile.local bundle exec jekyll serve
+source 'https://rubygems.org'
+gem 'jekyll', '~> 4.3'
+gem 'liquid', '~> 4.0.4'
+gem 'jekyll-feed'
+gem 'jekyll-sitemap'
+gem 'jekyll-redirect-from'
+gem 'jemoji'
+gem 'jekyll-gist'
+gem 'jekyll-paginate'
+gem 'webrick', '~> 1.8'
+gem 'csv'
+gem 'base64'
+gem 'bigdecimal'
+gem 'logger'

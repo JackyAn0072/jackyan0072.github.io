@@ -1,0 +1,4 @@
+# Top menu. Education and bio live on the home page.
+main:
+  - title: "Publications"
+    url: /publications/
