@@ -326,7 +326,7 @@
 /* Large icon-only links (Google Scholar, LinkedIn) under the bio */
 .author__bigicons {
   display: flex;
-  gap: 14px;
+  gap: 12px;
   flex-wrap: wrap;
   margin: 0.2em 0 1em;
 
@@ -336,6 +336,6 @@
   }
 
   i {
-    font-size: 50px;
+    font-size: 64px;
   }
 }
