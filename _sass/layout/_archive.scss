@@ -246,12 +246,14 @@
 
 /* Publication titles: plain text, with small DOI/Abstract/Poster links inline after it */
 .archive__item-title.pub-title {
+  font-size: 1em; // same size as the body text on the home page
   font-weight: 600;
+  margin-top: 1.4em;
 }
 
 .pub-links {
   margin-left: 0.6em;
-  font-size: 0.6em;
+  font-size: 0.75em;
   font-weight: 400;
   white-space: nowrap;
 

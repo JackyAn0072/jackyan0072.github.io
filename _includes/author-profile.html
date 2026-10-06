@@ -22,8 +22,8 @@
 
   {% if author.googlescholar or author.linkedin %}
   <div class="author__bigicons">
-    {% if author.googlescholar %}<a href="{{ author.googlescholar }}" title="Google Scholar" aria-label="Google Scholar"><i class="fab fa-google-scholar" aria-hidden="true"></i></a>{% endif %}
-    {% if author.linkedin %}<a href="https://www.linkedin.com/in/{{ author.linkedin }}" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>{% endif %}
+    {% if author.googlescholar %}<a href="{{ author.googlescholar }}" title="Google Scholar" aria-label="Google Scholar"><img class="scholar-icon" src="{{ '/images/google-scholar.svg' | prepend: base_path }}" alt="Google Scholar"></a>{% endif %}
+    {% if author.linkedin %}<a href="{% if author.linkedin contains '://' %}{{ author.linkedin }}{% else %}https://www.linkedin.com/in/{{ author.linkedin }}{% endif %}" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>{% endif %}
   </div>
   {% endif %}
 

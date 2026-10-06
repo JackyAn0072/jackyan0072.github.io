@@ -335,7 +335,15 @@
     border-bottom: 0;
   }
 
+  align-items: center;
+
   i {
     font-size: 64px;
+  }
+
+  .scholar-icon {
+    display: block;
+    width: 32px;
+    height: 32px;
   }
 }

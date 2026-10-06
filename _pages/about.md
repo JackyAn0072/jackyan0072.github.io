@@ -25,4 +25,3 @@ Education
 **B.S., Applied Mathematics and Statistics and Economics**
 <br>Emory University
 <br>2022 -- 2026 · Highest Honors (*summa cum laude*)
-<br>Thesis title: "Interview Privacy and Responses to Sensitive Questions: Cross-National Evidence from DHS Surveys"
