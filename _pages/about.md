@@ -18,9 +18,11 @@ Before my Ph.D., I studied Applied Mathematics and Statistics and Economics at E
 Education
 ======
 
-**Ph.D., Industrial Engineering** (M.S. en route), Georgia Institute of Technology
+**Ph.D., Industrial Engineering** (M.S. en route)
+<br>ISyE, Georgia Institute of Technology
 <br>2026 -- 2031 (expected) · Ronald J. and Carol T. Beerman Fellowship
 
-**B.S., Applied Mathematics and Statistics and Economics**, Emory University
+**B.S., Applied Mathematics and Statistics and Economics**
+<br>Emory University
 <br>2022 -- 2026 · Highest Honors (*summa cum laude*)
-<br>Honors thesis: "Interview Privacy and Responses to Sensitive Questions: Cross-National Evidence from DHS Surveys" (advisor: Dr. Craig Hadley)
+<br>Thesis title: "Interview Privacy and Responses to Sensitive Questions: Cross-National Evidence from DHS Surveys"
