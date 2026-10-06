@@ -243,3 +243,19 @@
     }
   }
 }
+
+/* Publication titles: plain text, with small DOI/Abstract/Poster links inline after it */
+.archive__item-title.pub-title {
+  font-weight: 600;
+}
+
+.pub-links {
+  margin-left: 0.6em;
+  font-size: 0.6em;
+  font-weight: 400;
+  white-space: nowrap;
+
+  a + a {
+    margin-left: 0.9em;
+  }
+}
