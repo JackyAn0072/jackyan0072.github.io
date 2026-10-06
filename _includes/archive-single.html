@@ -27,7 +27,11 @@
     {% endif %}
 
     {% if post.collection == 'publications' %}
-    <h2 class="archive__item-title pub-title" itemprop="headline">{{ title }}{% if post.paperurl or post.abstracturl or post.posterurl or post.slidesurl or post.bibtexurl %}<span class="pub-links">{% if post.paperurl %}<a href="{{ post.paperurl }}">DOI</a>{% endif %}{% if post.abstracturl %}<a href="{{ post.abstracturl }}">Abstract</a>{% endif %}{% if post.posterurl %}<a href="{{ post.posterurl }}">Poster (PDF)</a>{% endif %}{% if post.slidesurl %}<a href="{{ post.slidesurl }}">Slides</a>{% endif %}{% if post.bibtexurl %}<a href="{{ post.bibtexurl }}">BibTeX</a>{% endif %}</span>{% endif %}</h2>
+    <div class="pub">
+      <p class="pub__title">{{ title }}{% if post.paperurl or post.abstracturl or post.posterurl or post.slidesurl or post.bibtexurl %}<span class="pub-links">{% if post.paperurl %}<a href="{{ post.paperurl }}">DOI</a>{% endif %}{% if post.abstracturl %}<a href="{{ post.abstracturl }}">Abstract</a>{% endif %}{% if post.posterurl %}<a href="{{ post.posterurl }}">Poster (PDF)</a>{% endif %}{% if post.slidesurl %}<a href="{{ post.slidesurl }}">Slides</a>{% endif %}{% if post.bibtexurl %}<a href="{{ post.bibtexurl }}">BibTeX</a>{% endif %}</span>{% endif %}</p>
+      {% if post.citation %}<p class="pub__authors">{{ post.citation }}</p>{% endif %}
+      <p class="pub__venue"><i>{{ post.venue }}</i>{% if post.status %}<span class="pub__status">{{ post.status }}</span>{% endif %}</p>
+    </div>
     {% else %}
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
@@ -36,7 +40,6 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-    {% endif %}
     
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
@@ -44,8 +47,6 @@
 
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.collection == 'publications' %}
-          <p><i>{{ post.venue }}</i>{% if post.status %} &mdash; {{ post.status }}{% endif %}</p>
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
@@ -57,6 +58,7 @@
     {% endif %}
     
     {% if post.citation %}<p>{{ post.citation }}</p>{% endif %}
+    {% endif %}
 
   </article>
 </div>

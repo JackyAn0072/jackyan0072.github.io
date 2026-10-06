@@ -244,15 +244,49 @@
   }
 }
 
-/* Publication titles: plain text, with small DOI/Abstract/Poster links inline after it */
-.archive__item-title.pub-title {
-  font-size: 1em; // same size as the body text on the home page
-  font-weight: 600;
-  margin-top: 1.4em;
+/* Publications: title > authors > venue/status, tight inside an entry, loose between entries */
+.pub {
+  margin: 0 0 1.7em;
+}
+
+.pub__title {
+  margin: 0 0 0.3em;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.35;
+  color: #2a2d31;
+}
+
+.pub__authors {
+  margin: 0 0 0.2em;
+  font-size: 0.9em;
+  line-height: 1.45;
+  color: #3d4147;
+}
+
+.pub__venue {
+  margin: 0;
+  font-size: 0.9em;
+  color: #6b7078;
+
+  i { color: #4b5057; }
+}
+
+.pub__status {
+  display: inline-block;
+  margin-left: 0.7em;
+  padding: 0 0.55em;
+  font-size: 0.8em;
+  line-height: 1.7;
+  border: 1px solid #d5d8dc;
+  border-radius: 999px;
+  color: #6b7078;
+  background: #f4f5f6;
+  vertical-align: 0.05em;
 }
 
 .pub-links {
-  margin-left: 0.6em;
+  margin-left: 0.7em;
   font-size: 0.75em;
   font-weight: 400;
   white-space: nowrap;
