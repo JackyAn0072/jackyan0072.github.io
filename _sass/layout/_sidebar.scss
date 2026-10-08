@@ -351,3 +351,24 @@
     height: 40px;
   }
 }
+
+/* No "Follow" dropdown: the sidebar list is always visible, on phones too */
+.author__urls-wrapper {
+  display: block;
+  cursor: default;
+}
+
+.author__urls {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+
+  &:before,
+  &:after {
+    display: none;
+  }
+}
