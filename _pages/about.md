@@ -23,7 +23,7 @@ Education
 ======
 
 <div class="edu">
-  <p class="edu__head"><b>Ph.D., Industrial Engineering</b> (M.S. en route)</p>
+  <p class="edu__head"><b>Ph.D., Industrial Engineering</b></p>
   <p class="edu__sub">ISyE, Georgia Institute of Technology<br>2026 &ndash; 2031 (expected) &middot; Ronald J. and Carol T. Beerman Fellowship</p>
 </div>
 
