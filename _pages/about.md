@@ -11,7 +11,7 @@ redirect_from:
 
 I am a first-year Ph.D. student in Industrial Engineering at the [H. Milton Stewart School of Industrial and Systems Engineering](https://www.isye.gatech.edu/) at Georgia Tech. My research focuses on data-driven modeling and decision-making in health systems, drawing on applied statistics and causal inference with health and demographic data.
 
-Before my Ph.D., I studied Applied Mathematics and Statistics and Economics at Emory University, and worked with the health services research team at the American Cancer Society.
+Before my Ph.D., I studied Applied Mathematics and Statistics, Economics at Emory University, and worked with the health services research team at the American Cancer Society.
 
 **Research interests:** data-driven decision making in health systems, machine learning, causal inference.
 
@@ -28,6 +28,6 @@ Education
 </div>
 
 <div class="edu">
-  <p class="edu__head"><b>B.S., Applied Mathematics and Statistics and Economics</b></p>
+  <p class="edu__head"><b>B.S., Applied Mathematics and Statistics, Economics</b></p>
   <p class="edu__sub">Emory University<br>2022 &ndash; 2026 &middot; Highest Honors (<i>summa cum laude</i>)</p>
 </div>
